@@ -1,0 +1,32 @@
+.root {
+	position: relative;
+	display: flex;
+	align-items: center;
+	column-gap: 10px;
+	padding: 12px 18px;
+	padding-right: 39px;
+	border-radius: 20px;
+	background: #e5e5e5;
+
+	input {
+		background: transparent;
+		font-weight: 500;
+		font-size: 18px;
+		border: none;
+	}
+}
+
+.delete {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	right: 10px;
+	cursor: pointer;
+
+	&:hover {
+		path {
+			transition: stroke-opacity 0.2s ease-in-out;
+			stroke-opacity: 0.7;
+		}
+	}
+}

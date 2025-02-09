@@ -1,4 +1,10 @@
+import Header from '../../header/Header'
+
 const Home: React.FC = () => {
-	return <div></div>
+	return (
+		<div className='wrapper'>
+			<Header />
+		</div>
+	)
 }
 export default Home
